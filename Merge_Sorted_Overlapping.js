@@ -15,7 +15,6 @@ Output 2: [ [2, 10] ]
 * */
 const merge_Sorted_Overlapping = {
     solve : function(A){
-        const N = A[A.length - 1][A[0].length - 1];
         let result = [];
         let l = A[0][0];
         let r = A[0][1];

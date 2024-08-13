@@ -9,7 +9,7 @@ function sumOfSubarrayOR(A) {
         let zeroVal = 0;
 
         for (let j = 0; j < N; j++) {
-            if ((A[j] & (1 << i)) == 0) {
+            if ((A[j] & (1 << i)) === 0) {
                 count++;
             } else {
                 zeroVal += ((count * (count + 1)) / 2);

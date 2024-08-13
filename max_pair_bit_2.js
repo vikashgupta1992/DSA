@@ -36,7 +36,7 @@ const findMaxPair = (A) => {
             ans |= (1 << i);
 
             for (let j = 0; j < A.length; j++) {
-                if ((parseInt(A[j]) & (1 << i)) == 0) {
+                if ((parseInt(A[j]) & (1 << i)) === 0) {
                     A[j] = 0;
                 }
             }

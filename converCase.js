@@ -17,11 +17,7 @@ const converCase = {
     //param A : string
     //return a strings
     isUpperCase : function (string) {
-        if (string.charCodeAt(0) >= 65 && string.charCodeAt(0) <= 90) {
-            return true;
-        }
-
-        return false;
+        return string.charCodeAt(0) >= 65 && string.charCodeAt(0) <= 90;
     },
     solve : function(A){
         let result = "";

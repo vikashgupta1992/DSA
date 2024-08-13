@@ -25,7 +25,7 @@ const print_array_recursion = {
         process.stdout.write(A[idx] + ' ');
     },
     solve : (A) => {
-        const result = print_array_recursion.printArray(A, A.length - 1);
+        print_array_recursion.printArray(A, A.length - 1);
         console.log();
     }
 }
